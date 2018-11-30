@@ -59,6 +59,16 @@ p {
 		width: 90%;
 		margin: auto;
 	}
+
+	#Alexa01, #Alexa02{
+		flex:1;
+		overflow:hidden;
+	}
+
+	.content-form{
+		flex:2;
+		overflow: hidden;
+	}
 	
 	.formulaire{ 
 		width: 300px;
@@ -87,7 +97,7 @@ p {
 		height: 27px;
 	}
 
-	.grille {margin-top: 50px;}
+	.grille {margin-top: 20px;}
 
 }
 
