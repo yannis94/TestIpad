@@ -51,6 +51,11 @@ p {
 
 @media screen and (max-width: 1000px){
 
+	.grille{
+		display:flex;
+		
+	}
+
 	.content {
 		width: 90%;
 		margin: auto;
