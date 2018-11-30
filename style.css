@@ -96,7 +96,7 @@ p {
 		flex-direction: column;
 		align-items: center;
 		justify-content: space-between;
-		overflow-y:hidden;
+		-webkit-overflow-y:hidden;
 	}
 
 	.logo{
@@ -109,8 +109,8 @@ p {
 	}
 
 	.content {
-		margin-top: 80px;
-		margin-bottom: 40px;
+		margin-top: 30px;
+		margin-bottom: 30px;
 	}
 
 	#logo {
