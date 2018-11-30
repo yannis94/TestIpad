@@ -7,8 +7,8 @@ body {
 	background-color: #312f30;
 	background-image: url('Images/araignée.png');
 	background-position: center;
-	background-size: 100vh;
-	height: 100vh;
+	background-size: calc(var(--vh, 1vh) * 100);
+	height: calc(var(--vh, 1vh) * 100);
 	overflow: hidden;
 }
 
