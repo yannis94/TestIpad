@@ -115,6 +115,7 @@ p {
 
 	#logo {
 		width: 34%;
+		position: relative;
 	}
 
 	.formulaire{ 
