@@ -9,7 +9,6 @@ body, html {
 	background-position: center;
 	background-size: calc(var(--vh, 1vh) * 100);
 	height: calc(var(--vh, 1vh) * 100);
-	overflow: hidden;
 	margin: 0;
 	padding: 0;
 }
@@ -159,7 +158,7 @@ p {
 	#btn-envoi {
 		width: 60px;
 		height: 25px;
-		font-size: 13px;
+		font-size: 12px;
 	}
 
 	#btn-envoi:hover {
