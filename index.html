@@ -12,24 +12,7 @@
 
 <body>
 
-	
-	<script>
-		// First we get the viewport height and we multiple it by 1% to get a value for a vh unit
-		let vh = window.innerHeight * 0.01;
-		// Then we set the value in the --vh custom property to the root of the document
-		document.documentElement.style.setProperty('--vh', `${vh}px`);
-
-		// We listen to the resize event
-		window.addEventListener('resize', () => {
-			// We execute the same script as before
-			let vh = window.innerHeight * 0.01;
-			document.documentElement.style.setProperty('--vh', `${vh}px`);
-		});
-	</script>
-
-	<div class="logo">
-		<img id="logo" src="Images/logo_ESD.png">
-	</div>
+	<img id="logo" src="Images/logo_ESD.png">
 	<div class="content">
 		<h1>Bienvenue sur le stand Voie ESD</h1>
 		<h2>Pour recevoir le résumé de votre entretient avec Alexa veillez remplir le formulaire ci-dessous</h2>
@@ -58,7 +41,6 @@
 						<div class="bas">
 							<input id ="btn-envoi" type="submit" name="btn" value="Envoyer">
 						</div>
-
 					</form>
 				</div>
 			</div>
@@ -71,7 +53,7 @@
 
 		</div>
 
-</body>
 
+</body>
 
 </html>
