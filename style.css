@@ -58,7 +58,7 @@ p {
 	}
 	
 	.formulaire{ 
-		width: 300px;
+		width: 370px;
 		height: 160px;
 	}
 
@@ -74,13 +74,13 @@ p {
 	.bas { height: 50px; }
 
 	#btn-envoi {
-		width: 60px;
+		width: 71px;
 		height: 25px;
 		font-size: 13px;
 	}
 
 	#btn-envoi:hover {
-		width: 63px;
+		width: 75px;
 		height: 27px;
 	}
 
@@ -116,7 +116,7 @@ p {
 	}
 
 	.formulaire{ 
-		width: 350px;
+		width: 370px;
 		height: 300px;
 		margin-bottom: 50px;
 	}
@@ -137,13 +137,13 @@ p {
 	}
 
 	#btn-envoi {
-		width: 60px;
+		width: 71px;
 		height: 25px;
 		font-size: 13px;
 	}
 
 	#btn-envoi:hover {
-		width: 63px;
+		width: 75px;
 		height: 27px;
 	}
 
